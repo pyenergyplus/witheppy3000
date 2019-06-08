@@ -1,0 +1,33 @@
+2019-06-07
+----------
+
+If ipython is running the wrong version of python, then:
+
+Run hash -r
+From your bash shell, run::
+
+    hash -r
+
+And try running iPython again.
+
+When you've run iPython previously in a shell session, that command was cached. This command simply resets the cache. And now when you run::
+
+    ipython
+
+it will refer to the version of iPython that you installed in your virtual environment.
+
+
+2019-06-07
+----------
+
+set up python3 virtualenv
+
+# First time
+python3 -m venv ~/venvs/witheppy3000
+source ~/venvs/witheppy3000/bin/activate
+
+# any other time
+source ~/venvs/witheppy3000/bin/activate
+
+
+
